@@ -1,0 +1,39 @@
+{
+  "name": "grpc-microservices",
+  "version": "0.0.1",
+  "description": "simple grpc microservices concept",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "jest",
+    "start:dev": "tsc -w && nodemon --legacy-watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saefullohmaslul/gRPC-Microservices.git"
+  },
+  "keywords": [
+    "microservices",
+    "grpc",
+    "rpc",
+    "typescript"
+  ],
+  "author": "Saefulloh Maslul",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/saefullohmaslul/gRPC-Microservices/issues"
+  },
+  "homepage": "https://github.com/saefullohmaslul/gRPC-Microservices#readme",
+  "dependencies": {
+    "@types/debug": "^4.1.5",
+    "@types/google-protobuf": "^3.7.2",
+    "cross-env": "^7.0.2",
+    "debug": "^4.1.1",
+    "google-protobuf": "^3.11.4",
+    "grpc": "^1.24.2",
+    "protoc-gen-grpc-ts": "^1.0.1",
+    "ts-node": "^8.8.1",
+    "ts-protoc-gen": "^0.12.0",
+    "tslib": "^1.11.1",
+    "typescript": "^3.8.3"
+  }
+}
