@@ -1,6 +1,6 @@
 # Node gRPC Microservices with Typescript
 
-Microservice architecture with gRPC for Node Application
+Microservices architecture with gRPC for Node Application
 
 ## Feature
 
@@ -40,19 +40,19 @@ npm run start:dev
 ├── protos                     # protobuf file
 ├── scripts                    # Script helper
 ├── src                        # All app files put here
-| ├── __tests__                # Unit Testing files
-| ├── bin                      # Contain Basic App configuration
-| ├── controllers              # App controller
-| ├── database                 # Data access stuff  (Sequalize mostly)
-| ├── grpc                     # gRPC server
-| ├── helpers                  # Helper functions
-| ├── middleware               # App middleware configuration
-| ├── protoc                   # Proto generated file .d.ts and .js
-| ├── repositories             # Contain query sql/no-sql to database
-| ├── routes                   # Routes request manager
-| ├── services                 # Contain bussiness logic and flow of endpoint
-| ├── utils                    # Util libs (formats, debugger, validation, etc)
-| └── index.ts                 # App Entry point
+|  ├── __tests__               # Unit Testing files
+|  ├── bin                     # Contain Basic App configuration
+|  ├── controllers             # App controller
+|  ├── database                # Data access stuff  (Sequalize mostly)
+|  ├── grpc                    # gRPC server
+|  ├── helpers                 # Helper functions
+|  ├── middleware              # App middleware configuration
+|  ├── protoc                  # Proto generated file .d.ts and .js
+|  ├── repositories            # Contain query sql/no-sql to database
+|  ├── routes                  # Routes request manager
+|  ├── services                # Contain bussiness logic and flow of endpoint
+|  ├── utils                   # Util libs (formats, debugger, validation, etc)
+|  └── index.ts                # App Entry point
 |
 ├── .env.example               # Example environment
 ├── .gitignore                 # Git ignore
