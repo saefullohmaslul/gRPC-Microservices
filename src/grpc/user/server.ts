@@ -1,8 +1,8 @@
 import debug from 'debug'
 import grpc from 'grpc'
 
-import { UserServiceService } from '../../protoc/user_grpc_pb'
-import { User, NewUser, Result, UserId } from '../../protoc/user_pb'
+import { UserServiceService } from '../../protoc/user/user_grpc_pb'
+import { User, NewUser, Result, UserId } from '../../protoc/user/user_pb'
 
 const log = debug('server')
 
