@@ -23,14 +23,23 @@
     "forceConsistentCasingInFileNames": true /* Disallow inconsistently-cased references to the same file. */,
     "resolveJsonModule": true /* Resolve json import */,
     "types": [
-      "node"
+      "node",
+      "reflect-metadata"
     ],
     "plugins": [
       {
         "transform": "typescript-transform-paths",
         "afterDeclarations": true
       }
-    ]
+    ],
+    "paths": {
+      "@app": [
+        "./"
+      ],
+      "@app/*": [
+        "./*"
+      ]
+    }
   },
   "include": [
     "./src/**/*"

@@ -24,6 +24,9 @@ export namespace UserId {
 }
 
 export class User extends jspb.Message {
+  getId(): string;
+  setId(value: string): void;
+
   getName(): string;
   setName(value: string): void;
 
@@ -45,6 +48,7 @@ export class User extends jspb.Message {
 
 export namespace User {
   export type AsObject = {
+    id: string,
     name: string,
     email: string,
     password: string,
@@ -52,9 +56,6 @@ export namespace User {
 }
 
 export class NewUser extends jspb.Message {
-  getId(): string;
-  setId(value: string): void;
-
   getName(): string;
   setName(value: string): void;
 
@@ -76,7 +77,6 @@ export class NewUser extends jspb.Message {
 
 export namespace NewUser {
   export type AsObject = {
-    id: string,
     name: string,
     email: string,
     password: string,
