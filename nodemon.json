@@ -2,6 +2,7 @@
   "watch": [
     "src"
   ],
+  "legacyWatch": true,
   "ext": "ts",
-  "exec": "cross-env DEBUG=server* node dist"
+  "exec": "npm-run-all clean build start"
 }
